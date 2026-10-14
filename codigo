@@ -1,0 +1,4 @@
+codigo passo 1:
+kubectl version --client
+
+kubectl get nodes
