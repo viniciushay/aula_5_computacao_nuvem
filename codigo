@@ -31,4 +31,10 @@ kubectl delete pod $(kubectl get pods -o jsonpath='{.items[0].metadata.name}')
 
 kubectl get pods
 
+codigo passo 7:
+kubectl expose deployment web-aula5 --port=80 --target-port=80 --name=web-service
+
+kubectl get service web-service
+
+
 
