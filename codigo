@@ -21,3 +21,6 @@ kubectl scale deployment web-aula5 --replicas=3
 
 kubectl get pods -o wide
 
+codigo passo 5:
+kubectl get deployment,replicaset,pods
+
