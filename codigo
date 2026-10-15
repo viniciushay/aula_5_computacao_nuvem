@@ -34,6 +34,11 @@ kubectl get pods
 codigo passo 7:
 kubectl expose deployment web-aula5 --port=80 --target-port=80 --name=web-service
 
+codigo passo 8: 
+kubectl run teste --image=curlimages/curl --rm -it --restart=Never -- \
+  curl http://web-service
+
+
 kubectl get service web-service
 
 
