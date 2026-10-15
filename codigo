@@ -2,3 +2,8 @@ codigo passo 1:
 kubectl version --client
 
 kubectl get nodes
+
+codigo passo 2:
+kubectl create deployment web-aula5 --image=nginx:alpine
+
+kubectl get deployments
